@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Styles/styles.css">
+    <link rel="stylesheet" href="../Contact/auth/styles/forms.css">
+    <link rel="stylesheet" href="../Contact/auth/styles/modal.css">
+    <link rel="icon" type="image/png" href="../images/logo.jpeg" />
+    <title>Contactenos</title>
+</head>
+
+<body>
+    <nav class="topnav">
+        <div class="align">
+            <a class="active" href="../home/home.html">Home</a>
+        </div>
+    </nav>
+
+    <h1 style="color: aliceblue;" class="titulo">QUIERES SABER MAS DE NUESTROS SERVICIOS?</h1>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <h2 style="color: aliceblue;">DEJANOS UN MENSAJE</h2>
+        <br>
+        <p style="color: rgb(240, 234, 234); " class="card-text">
+            <br>
+            <img src="../images/facebook.jpg" >
+            <b>Facebook</b> Sneaker Store - Bolivia<br>
+            <img src="../images/whathApp.jpeg" >
+            <b>whatsapp</b> +591-79435422<br>
+            <img src="../images/instagram.jpg" >
+            <b>Instagram</b> @SneakerStore_bo <br>
+            <img src="../images/email.jpeg" >
+            <b>correo:</b>sneakerstore@gmail.com<br>
+            <img src="../images/direccion.jpg" >
+            <b>Dirección:</b>Super Mall, local 50-51 primer piso 
+        </p>
+        <left>
+            <button style="width: 200px;"
+                onclick="document.getElementById('id01').style.display = 'block'">Consulta</button>
+            <left>
+                <div id="id01" class="modal">
+                    <form class="modal-content animate">
+                        <div class="imgcontainer">
+                            <span onclick="document.getElementById('id01').style.display ='none'" class="close"
+                                title="Close Modal">&times;</span>
+                            <img src="../images/consulta.png" style="width: 50%;" class="avatar">
+                        </div>
+
+                        <div class="container">
+                            <label for="username"><b>Nombre</b></label>
+                            <input type="text" placeholder="Ingrese su nombre" required>
+
+                            <label for="password"><b>Celular</b></label>
+                            <input type="password" placeholder="ingrese su numero de celular" required>
+                           
+                            <label for="description"><b>Consulta</b></label>
+                            <input type="text" placeholder="ingrese su Consulta" required>
+                                <center>
+                               <button>Enviar </button>
+                                </center>
+                        </div>
+                        
+                    </form>
+                </div>
+
+                <script>
+                    var modal = document.getElementById('id01');
+
+                    window.onclick = function (event) {
+                        if (event.target == modal) {
+                            modal.style.display = "none";
+                        }
+                    }
+                </script>
+</body>
+
+</html>

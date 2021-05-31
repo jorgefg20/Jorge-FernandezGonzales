@@ -1,0 +1,46 @@
+
+
+
+.topnav {
+    background-color: rgb(0, 0, 0); 
+    overflow: hidden;
+    height: 45px;
+}
+    
+.topnav a {
+    text-decoration: none;
+    font-size: 20px;
+    float: left;  
+    padding: 10px 13px;
+    color: rgb(255, 255, 255);
+}
+
+.topnav a:hover {
+    background-color: rgb(241, 122, 66); 
+    color: rgb(10, 9, 9);
+}
+
+.topnav a.active {
+    background-color: rgb(241, 122, 66);    
+}
+
+.parrafo {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;   
+    width: 70%;
+}
+
+h1 {
+    color: rgb(20, 12, 12);
+    text-align: center;
+    text-decoration: underline;
+}
+
+m {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
