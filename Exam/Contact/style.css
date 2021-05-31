@@ -1,0 +1,28 @@
+
+img {
+    height: 280px;
+}
+
+.card1{
+    width: 100%;
+    height: 80%;
+    background-color: white;  
+}
+
+.card2{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+
+.margen{
+    margin-top: 20px;
+}
+body{
+   
+    background-image: url(../Contact/index.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
